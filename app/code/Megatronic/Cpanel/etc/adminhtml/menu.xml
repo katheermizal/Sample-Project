@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Megatronic_Cpanel::view" title="Electronics Theme Cpanel" module="Megatronic_Cpanel" sortOrder="10" resource="Megatronic_Cpanel::cpanel"/>
+        <add id="Megatronic_Cpanel::extension" title="Theme Cpanel" module="Megatronic_Cpanel" sortOrder="5" parent="Megatronic_Cpanel::view" resource="Megatronic_Cpanel::view" />
+        <add id="Megatronic_Cpanel::cpanelsetting" title="Configuration" module="Megatronic_Cpanel" sortOrder="20" parent="Megatronic_Cpanel::extension" action="adminhtml/system_config/edit/section/cpanelsection" resource="Megatronic_Cpanel::cpanel"/>
+        <add id="Megatronic_Add::add" title="Megatronic Extensions" module="Megatronic_Cpanel" sortOrder="20" resource="Megatronic_Cpanel::view" parent="Megatronic_Cpanel::view"/>
+        <add id="Megatronic_Addimage::addimage" title="Sale" module="Megatronic_Cpanel" sortOrder="20" parent="Megatronic_Add::add" resource="Megatronic_Add::addimage"/>
+        <add id="Megatronic_Add::add_two" title="Megatronic Extensions" module="Megatronic_Cpanel" sortOrder="20" resource="Megatronic_Cpanel::view" parent="Megatronic_Cpanel::view"/>
+        <add id="Megatronic_Addimage::addimage_two" title="Sale" module="Megatronic_Cpanel" sortOrder="20" parent="Megatronic_Add::add_two" resource="Megatronic_Add::addimage_two"/>
+    </menu>
+</config>

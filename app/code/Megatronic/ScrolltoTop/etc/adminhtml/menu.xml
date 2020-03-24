@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Megatronic_ScrolltoTop::extension" title="Scroll to Top" module="Megatronic_ScrolltoTop" sortOrder="10" parent="Megatronic_Extensions::extensions" resource="Megatronic_ScrolltoTop::extension" />
+        <add id="Megatronic_ScrolltoTop::scrolltotop" title="Configuration" module="Megatronic_ScrolltoTop" sortOrder="120" parent="Megatronic_ScrolltoTop::extension" action="adminhtml/system_config/edit/section/scrollsection" resource="Megatronic_ScrolltoTop::scrolltotop"/>
+    </menu>
+</config>

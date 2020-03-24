@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <!--To include blocks in left & right columns-->
+    <head>
+        <css src="Megatronic_ScrolltoTop::css/scroll.css"/>
+        <script src="Megatronic_ScrolltoTop::js/scroll.js" />
+    </head>
+    <body>
+        <referenceContainer name="before.body.end">
+            <block class="Megatronic\ScrolltoTop\Block\ScrolltoTop" name="scrolltotop" template="Megatronic_ScrolltoTop::scroll.phtml" ifconfig="scrollsection/scrollgroup/active" />
+        </referenceContainer>
+    </body>
+</page>

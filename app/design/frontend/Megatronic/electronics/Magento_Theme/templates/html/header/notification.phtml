@@ -1,0 +1,12 @@
+<?php
+/**
+ * @var \Magento\Theme\Block\Html\Header\Logo $block
+ */
+?>
+<?php
+$helper = $this->helper('Megatronic\Cpanel\Helper\Data');
+$top_header_notification = $helper->getTopheadernotification();
+?>
+<span class="header-notification">
+    <?php echo $top_header_notification; ?>
+</span>

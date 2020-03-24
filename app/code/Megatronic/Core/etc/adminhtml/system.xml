@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Config/etc/system_file.xsd">
+    <system>
+        <tab id="megatronic_extension_tab" translate="label" sortOrder="100" class="megatronic_megatronic_logo">
+            <label>Megatronic</label>
+        </tab>
+    </system>
+</config>

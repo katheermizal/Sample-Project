@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Megatronic_Extensions::extensions" title="Megatronic" module="Magento_Backend" sortOrder="10" resource="Megatronic_Extensions::extensions" />
+    </menu>
+</config>
